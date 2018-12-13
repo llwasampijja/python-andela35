@@ -37,7 +37,7 @@ def multiples_five(user_input):
     return string_numbers
 
 def check_if_binary_number(number):
-    if False in [digit == '0' or digit == '1' for digit in number]:
+    if False in ([digit == '0' or digit == '1' for digit in number] or len(number)==4):
         return ""
     else:
         return number
@@ -66,9 +66,9 @@ def square_numbers():
 # printList()
 
 
-print(numb_multiple_seven_not_five())
-capitizeSequenseOfLines()
+# print(numb_multiple_seven_not_five())
+# capitizeSequenseOfLines()
 print(multiples_five(input("Enter number sequence: ")))
-print( square_numbers())
+# print( square_numbers())
 
 
