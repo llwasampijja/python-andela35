@@ -57,10 +57,16 @@ def square_numbers():
         list_squares.append(number**2)
     list_firstfive = list_squares[0:5]
     return list_firstfive
-
+"""Qn 1"""
 print(numb_multiple_seven_not_five())
+
+"""Qn 2"""
 capitizeSequenseOfLines()
-print(multiples_five(input("Enter number sequence: ")))
+
+"""Qn 3"""
+print(multiples_five(input("Enter binary number sequence: ")))
+
+"""Qn 5"""
 print( square_numbers())
 
 
