@@ -58,17 +58,9 @@ def square_numbers():
     list_firstfive = list_squares[0:5]
     return list_firstfive
 
-
-# def printList():
-#   XXXXXX
-#   XXXXXX
-    
-# printList()
-
-
-# print(numb_multiple_seven_not_five())
-# capitizeSequenseOfLines()
+print(numb_multiple_seven_not_five())
+capitizeSequenseOfLines()
 print(multiples_five(input("Enter number sequence: ")))
-# print( square_numbers())
+print( square_numbers())
 
 
